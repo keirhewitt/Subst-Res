@@ -1,0 +1,52 @@
+$primaryColour: #155263
+$secondaryColour: #ff6f3c
+$light_1: #D6FFF6
+$highlight_1: #ff9a3c
+$highlight_2: #ffc93c
+    
+*
+    margin: 0px
+    padding: 0px
+    font-family: sans-serif
+    font-family: 'Ubuntu', sans-serif
+
+body
+    margin: 0px
+    padding: 0px
+    height: 100vh
+    text-align: center
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%)
+    display: grid
+
+.App
+  text-align: center
+
+.container
+    display: flex
+    justify-content: center
+    background: $secondaryColour
+    border-bottom: 1px solid white
+
+.navbar 
+    width: 50px
+    height: 50px
+
+.percentage-block
+    border: 1px solid pink
+    width: 50%
+    margin: auto
+    margin-top: 50px
+    padding: 10px
+    border-radius: 20px
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px
+    background: radial-gradient(850px at 10% 20%, $secondaryColour 0%, $highlight_1 90%)
+
+.page-title
+    color: $primaryColour
+    background: radial-gradient(850px at 10% 20%, $highlight_1 0%, $secondaryColour 90%)
+    border-radius: inherit
+    padding: 5px
+    border: 1px dotted $primaryColour
+
+svg
+    margin: 10px
